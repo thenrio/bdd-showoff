@@ -1,0 +1,10 @@
+{
+  "name" : "hard and soft languages of BDD",
+  "description" : "none",
+  "sections" : [
+    {"section" : "me"},
+    {"section" : "history"},
+    {"section" : "tools"},
+    {"section" : "technology"}
+  ]
+}
