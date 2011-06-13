@@ -35,7 +35,6 @@ Pourquoi cette fonctionnalité ?
 [https://github.com/cucumber/cucumber/wiki/](https://github.com/cucumber/cucumber/wiki/)
 
 * Protect / Increase revenue
-* Increase revenue
 * Increase brand value
 * Make the product remarkable
 * Provide more value to your customers

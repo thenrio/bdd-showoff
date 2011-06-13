@@ -3,8 +3,7 @@
   "description" : "none",
   "sections" : [
     {"section" : "01_histoire"},
-    {"section" : "02_but"},
-    {"section" : "03_valeur"},
-    {"section" : "04_introduction"}
+    {"section" : "02_jeu"},
+    {"section" : "03_introduction"}
   ]
 }
