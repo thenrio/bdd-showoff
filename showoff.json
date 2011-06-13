@@ -1,10 +1,10 @@
 {
-  "name" : "hard and soft languages of BDD",
+  "name" : "introduction BDD",
   "description" : "none",
   "sections" : [
-    {"section" : "me"},
-    {"section" : "history"},
-    {"section" : "tools"},
-    {"section" : "technology"}
+    {"section" : "01_histoire"},
+    {"section" : "02_but"},
+    {"section" : "03_valeur"},
+    {"section" : "04_introduction"}
   ]
 }

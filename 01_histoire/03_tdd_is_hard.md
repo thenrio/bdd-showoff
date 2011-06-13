@@ -1,3 +1,18 @@
+!SLIDE bullets incremental
+
+2007 : Test Driven Development
+==============================
+* J'ai du rater quelque chose
+* Bof ...
+* \#fail
+
+!SLIDE bullets incremental
+# TDD est dur #
+
+* par QUOI je commence ?
+* et par OU ?
+* QUAND est-ce que j'arrête ?
+
 !SLIDE
 
 Aide : Livres
@@ -17,12 +32,6 @@ Aide : Livres
 ![feathers](feathers-twitter.jpg)
 ### Michael Feathers, @mfeathers
 
-!SLIDE center
-
-Introducing BDD
-===============
-
-### I decided it must be possible to present TDD in a way that gets straight to the good stuff and avoids all the pitfalls ###
-[Introducing BDD, 2006](http://dannorth.net/introducing-bdd/)
-![north-twitter](north-twitter.jpg)
-### Dan North, @tastapod ###
+# 2008 : Test Driven Development #
+## (le retour) ##
+* Aha
