@@ -15,8 +15,8 @@ Jeu
 
 !SLIDE center
 
-1 - Le but d'une entreprise est de gagner de l'argent
-====================================================
+1 - gagner de l'argent
+======================
 
 ![le but](amazon_le_but.jpg)
 Eli Goldratt (1947 - 11/06/2011)
@@ -32,9 +32,9 @@ Eli Goldratt (1947 - 11/06/2011)
 !SLIDE
 
 3 - le design
-============
+=============
 
 !SLIDE
 
 4 - On va voir
-=============
+==============
