@@ -1,3 +1,9 @@
+!SLIDE center
+
+Pas trop perdu ?
+================
+![cartoon](pardonm1004-400x344.jpg)
+
 !SLIDE bullets incremental
 
 Jeu
@@ -26,13 +32,17 @@ Eli Goldratt (1947 - 11/06/2011)
 !SLIDE
 
 2 - Pareil
-=========
+==========
+Ce qui compte est que le produit soit testé
+-------------------------------------------
 ## :)
 
 !SLIDE
 
 3 - le design
 =============
+Le test est un effet de bord de TDD
+-----------------------------------
 
 !SLIDE
 

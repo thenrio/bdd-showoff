@@ -32,6 +32,8 @@ Aide : Livres
 ![feathers](feathers-twitter.jpg)
 ### Michael Feathers, @mfeathers
 
+!SLIDE bullets incremental
+
 # 2008 : Test Driven Development #
 ## (le retour) ##
 * Aha
