@@ -1,12 +1,15 @@
 !SLIDE bullets incremental
 
-2007 : Test Driven Development
-==============================
+# 2007 : Test Driven Development
+
+!SLIDE bullets incremental
+
 * J'ai du rater quelque chose
 * Bof ...
 * \#fail
 
 !SLIDE bullets incremental
+
 # TDD est dur #
 
 * par QUOI je commence ?
@@ -15,8 +18,11 @@
 
 !SLIDE
 
-Aide : Livres
-=============
+# Aide
+
+!SLIDE
+
+# Livres
 
 !SLIDE center
 

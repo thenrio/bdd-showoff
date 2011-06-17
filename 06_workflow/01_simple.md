@@ -1,7 +1,11 @@
 !SLIDE
 
-Vous vous souvenez de mon workflow tout pourri au début ?
-=========================================================
+# Workflow
+
+!SLIDE
+
+# Vous vous souvenez de mon workflow tout pourri ?
+
 
 !SLIDE center
 

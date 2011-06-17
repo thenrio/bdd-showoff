@@ -26,10 +26,6 @@ pas bdd'ish
         end
       end
 
-      def teardown
-        restore_delivery_method
-      end
-
       def test_asset_host_as_string
         mail = AssetHostMailer.email_with_asset
         assert_equal(
@@ -43,7 +39,7 @@ pas bdd'ish
     @@@ ruby
     # actionmailer/test/asset_host_test.rb
     class AssetHostTest < Test::Unit::TestCase
-      ### arrange
+      ### ARRANGE
       ###
       def setup
         set_delivery_method :test
@@ -55,10 +51,6 @@ pas bdd'ish
         end
       end
 
-      def teardown
-        restore_delivery_method
-      end
-
       def test_asset_host_as_string
         mail = AssetHostMailer.email_with_asset
         assert_equal(
@@ -80,10 +72,6 @@ pas bdd'ish
           c.asset_host = "http://www.example.com"
           c.assets_dir = ''
         end
-      end
-
-      def teardown
-        restore_delivery_method
       end
 
       def test_asset_host_as_string
@@ -111,10 +99,6 @@ pas bdd'ish
         end
       end
 
-      def teardown
-        restore_delivery_method
-      end
-
       def test_asset_host_as_string
         mail = AssetHostMailer.email_with_asset
         ## ASSERT
@@ -124,6 +108,33 @@ pas bdd'ish
           mail.body.to_s.strip
         )
       end
+
+!SLIDE smaller
+
+    @@@ ruby
+    # actionmailer/test/asset_host_test.rb
+    class AssetHostTest < Test::Unit::TestCase
+      def setup
+        set_delivery_method :test
+        ActionMailer::Base.perform_deliveries = true
+        ActionMailer::Base.deliveries.clear
+        AssetHostMailer.configure do |c|
+          c.asset_host = "http://www.example.com"
+          c.assets_dir = ''
+        end
+      end
+
+      ## est-ce qu'on sait ce que fait le test
+      ## en lisant le nom de la méthode ?
+      ##
+      def test_asset_host_as_string
+        mail = AssetHostMailer.email_with_asset
+        assert_equal(
+          %Q{<img alt="Somelogo" src="http://www.example.com/images/somelogo.png" />},
+          mail.body.to_s.strip
+        )
+      end
+
 
 !SLIDE
 
@@ -161,6 +172,31 @@ spec/unit/mongoid/criterion/optional_spec.rb
 
     @@@ ruby
 
+    ## LE MODULE
+    ##
+    describe Mongoid::Criterion::Optional do
+      let(:base) do
+        Mongoid::Criteria.new(Person)
+      end
+
+      ## LE COMPORTEMENT DE LA METHODE
+      ##
+      describe "#ascending" do
+
+        context "when providing a field" do
+          let(:criteria) do
+            base.ascending(:title)
+          end
+
+          it "adds the ascending sort criteria" do
+            criteria.options[:sort].should == [[ :title, :asc ]]
+          end
+        end
+
+!SLIDE smaller
+
+    @@@ ruby
+
     describe Mongoid::Criterion::Optional do
       ## GIVEN
       ##
@@ -171,7 +207,6 @@ spec/unit/mongoid/criterion/optional_spec.rb
       describe "#ascending" do
 
         context "when providing a field" do
-
           let(:criteria) do
             base.ascending(:title)
           end
@@ -265,7 +300,7 @@ cucumber
 
 !SLIDE center
 
-## And it can produce [readable documentation](http://relishapp.com/rspec/rspec-expectations/v/2-6/dir/built-in-matchers/equality-matchers)...
+## Et ça produit une [documentation compréhensible](http://relishapp.com/rspec/rspec-expectations/v/2-6/dir/built-in-matchers/equality-matchers)...
 
 ![](rspec_expectations_equality_matcher.png)
 
