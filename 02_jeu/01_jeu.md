@@ -11,6 +11,7 @@ Jeu
 * 4 questions
 * trouvez avec votre voisin la bonne réponse
 * timebox : 1 minute
+* aide : réponse la plus simple et votre voisin vous demande plusieurs fois pourquoi
 
 !SLIDE smbullets
 
@@ -21,8 +22,13 @@ Jeu
 
 !SLIDE center
 
-1 - gagner de l'argent
-======================
+1 - Pourquoi fait-on des tests ?
+================================
+
+!SLIDE center
+
+Pour gagner de l'argent
+=======================
 
 ![le but](amazon_le_but.jpg)
 Eli Goldratt (1947 - 11/06/2011)
@@ -31,20 +37,36 @@ Eli Goldratt (1947 - 11/06/2011)
 
 !SLIDE
 
-2 - Pareil
-==========
+2 - Le client a-t-il plus confiance si le test est fait avant ou après ?
+========================================================================
+
+!SLIDE
+
+Pareil
+======
 Ce qui compte est que le produit soit testé
 -------------------------------------------
 ## :)
 
 !SLIDE
 
-3 - le design
-=============
+3 - Quel est le but de TDD ?
+============================
+
+!SLIDE
+
+le design
+=========
 Le test est un effet de bord de TDD
 -----------------------------------
 
 !SLIDE
 
-4 - On va voir
-==============
+4 - Quel est le but de BDD ?
+============================
+
+!SLIDE
+
+On va voir
+==========
+## :)

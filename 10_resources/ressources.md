@@ -1,3 +1,5 @@
+!SLIDE bullets
+
 * Keogh
   * [bdd-for-life](http://www.slideshare.net/lunivore/bdd-for-life)
 

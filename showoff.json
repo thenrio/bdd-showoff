@@ -4,6 +4,10 @@
   "sections" : [
     {"section" : "01_histoire"},
     {"section" : "02_jeu"},
-    {"section" : "03_introduction"}
+    {"section" : "03_introduction"},
+    {"section" : "04_language"},
+    {"section" : "05_tools"},
+    {"section" : "06_workflow"},
+    {"section" : "10_resources"}
   ]
 }

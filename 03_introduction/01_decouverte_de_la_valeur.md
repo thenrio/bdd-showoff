@@ -3,6 +3,17 @@
 Introduction BDD
 ================
 
+!SLIDE center bullets incremental
+
+BDD part d'une d'une expérience linguistique
+============================================
+
+!SLIDE bullets incremental
+
+`should` plutôt que `test`
+==========================
+* conditionnel plutôt qu'impératif
+
 !SLIDE center
 
 Découverte de la valeur
@@ -11,8 +22,8 @@ Outside In
 ----------
 ![bdd_fractal_value_discovery.png](bdd_fractal_value_discovery.png)
 
-
 !SLIDE
+
 Story (classique)
 =================
 
@@ -30,14 +41,17 @@ Story (à l'envers)
 
 !SLIDE center smbullets incremental
 
+Should ?
+========
 Pourquoi cette fonctionnalité ?
 ===============================
-[https://github.com/cucumber/cucumber/wiki/](https://github.com/cucumber/cucumber/wiki/)
+Demander pourquoi, recommencer tant que :
 
 * Protect / Increase revenue
 * Increase brand value
 * Make the product remarkable
 * Provide more value to your customers
+* [https://github.com/cucumber/cucumber/wiki/](https://github.com/cucumber/cucumber/wiki/)
 
 !SLIDE smbullets incremental center
 
