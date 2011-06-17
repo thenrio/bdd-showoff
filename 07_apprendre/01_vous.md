@@ -6,10 +6,9 @@
 
 # Valeur pour le client
 
-
 !SLIDE bullets
 
-# 1- Cherchez la satisfaction du client (Womack)
+# Chercher la satisfaction du client (Womack)
 
 * Ce que je veux
 * Ou je veux
@@ -19,4 +18,15 @@
 
 !SLIDE
 
-# 1- Par la livraison de produit de qualité
+# Par la livraison de produit de qualité
+
+!SLIDE bullets
+
+# Utiliser le même langage, omniprésent, pour faciliter
+* la communication
+* les questions
+
+!SLIDE bullets
+
+# BDD n'est pas à propos des outils
+* les outils sont là pour assoir la démarche

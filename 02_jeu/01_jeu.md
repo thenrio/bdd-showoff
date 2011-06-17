@@ -1,3 +1,7 @@
+!SLIDE
+
+# Et Vous ?
+
 !SLIDE center
 
 Pas trop perdu ?
@@ -72,4 +76,3 @@ On va voir
 ## :)
 
 !SLIDE
-

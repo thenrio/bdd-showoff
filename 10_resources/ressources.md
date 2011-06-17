@@ -1,4 +1,6 @@
-!SLIDE ressources
+!SLIDE
+
+# Ressources
 
 !SLIDE bullets
 
