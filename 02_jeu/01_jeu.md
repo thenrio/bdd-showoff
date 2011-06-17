@@ -70,3 +70,6 @@ Le test est un effet de bord de TDD
 On va voir
 ==========
 ## :)
+
+!SLIDE
+
